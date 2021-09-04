@@ -15,7 +15,7 @@ class DatabaseHelper {
   static final DatabaseHelper instance = DatabaseHelper._privateConstructor();
   // tem somente uma referência ao banco de dados
   static Database? _database;
-
+//
   Future<Database> get database async {
     if (_database != null) return _database!;
     // instancia o db na primeira vez que for acessado
